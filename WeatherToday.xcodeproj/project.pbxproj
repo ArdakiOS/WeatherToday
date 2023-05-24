@@ -10,7 +10,21 @@
 		9856799E299FF16800E046D3 /* WeatherTodayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856799D299FF16800E046D3 /* WeatherTodayApp.swift */; };
 		985679A0299FF16800E046D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856799F299FF16800E046D3 /* ContentView.swift */; };
 		985679A2299FF16900E046D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985679A1299FF16900E046D3 /* Assets.xcassets */; };
-		985679A5299FF16900E046D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985679A4299FF16900E046D3 /* Preview Assets.xcassets */; };
+		985679AD299FF1E100E046D3 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679AC299FF1E100E046D3 /* AuthView.swift */; };
+		985679AF299FF1FE00E046D3 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679AE299FF1FE00E046D3 /* LoadingView.swift */; };
+		985679B1299FF20E00E046D3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679B0299FF20E00E046D3 /* WelcomeView.swift */; };
+		985679B3299FF22000E046D3 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679B2299FF22000E046D3 /* WeatherView.swift */; };
+		985679B5299FF22F00E046D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679B4299FF22F00E046D3 /* LoginView.swift */; };
+		985679B8299FF26E00E046D3 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679B7299FF26E00E046D3 /* WeatherRow.swift */; };
+		985679BA299FF2AE00E046D3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679B9299FF2AE00E046D3 /* Extentions.swift */; };
+		985679BD299FF2D600E046D3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679BC299FF2D600E046D3 /* LocationManager.swift */; };
+		985679BF299FF2EA00E046D3 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679BE299FF2EA00E046D3 /* WeatherManager.swift */; };
+		985679C3299FF36D00E046D3 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = 985679C0299FF36D00E046D3 /* weatherData.json */; };
+		985679C4299FF36D00E046D3 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985679C1299FF36D00E046D3 /* ModelData.swift */; };
+		985679C5299FF36D00E046D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 985679C2299FF36D00E046D3 /* Preview Assets.xcassets */; };
+		985679C7299FF3DD00E046D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 985679C6299FF3DD00E046D3 /* GoogleService-Info.plist */; };
+		985679CA299FF62E00E046D3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 985679C9299FF62E00E046D3 /* FirebaseAuth */; };
+		985679CC299FF62E00E046D3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 985679CB299FF62E00E046D3 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +32,19 @@
 		9856799D299FF16800E046D3 /* WeatherTodayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTodayApp.swift; sourceTree = "<group>"; };
 		9856799F299FF16800E046D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		985679A1299FF16900E046D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		985679A4299FF16900E046D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		985679AC299FF1E100E046D3 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		985679AE299FF1FE00E046D3 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		985679B0299FF20E00E046D3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		985679B2299FF22000E046D3 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		985679B4299FF22F00E046D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		985679B7299FF26E00E046D3 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		985679B9299FF2AE00E046D3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		985679BC299FF2D600E046D3 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		985679BE299FF2EA00E046D3 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		985679C0299FF36D00E046D3 /* weatherData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		985679C1299FF36D00E046D3 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		985679C2299FF36D00E046D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		985679C6299FF3DD00E046D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985679CA299FF62E00E046D3 /* FirebaseAuth in Frameworks */,
+				985679CC299FF62E00E046D3 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +79,14 @@
 		9856799C299FF16800E046D3 /* WeatherToday */ = {
 			isa = PBXGroup;
 			children = (
+				985679C6299FF3DD00E046D3 /* GoogleService-Info.plist */,
 				9856799D299FF16800E046D3 /* WeatherTodayApp.swift */,
-				9856799F299FF16800E046D3 /* ContentView.swift */,
+				985679BB299FF2C200E046D3 /* Managers */,
+				985679B6299FF25800E046D3 /* Components */,
+				985679AB299FF1B500E046D3 /* Views */,
 				985679A1299FF16900E046D3 /* Assets.xcassets */,
 				985679A3299FF16900E046D3 /* Preview Content */,
+				985679B9299FF2AE00E046D3 /* Extentions.swift */,
 			);
 			path = WeatherToday;
 			sourceTree = "<group>";
@@ -62,9 +94,41 @@
 		985679A3299FF16900E046D3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				985679A4299FF16900E046D3 /* Preview Assets.xcassets */,
+				985679C1299FF36D00E046D3 /* ModelData.swift */,
+				985679C2299FF36D00E046D3 /* Preview Assets.xcassets */,
+				985679C0299FF36D00E046D3 /* weatherData.json */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		985679AB299FF1B500E046D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9856799F299FF16800E046D3 /* ContentView.swift */,
+				985679AC299FF1E100E046D3 /* AuthView.swift */,
+				985679AE299FF1FE00E046D3 /* LoadingView.swift */,
+				985679B0299FF20E00E046D3 /* WelcomeView.swift */,
+				985679B2299FF22000E046D3 /* WeatherView.swift */,
+				985679B4299FF22F00E046D3 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		985679B6299FF25800E046D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				985679B7299FF26E00E046D3 /* WeatherRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		985679BB299FF2C200E046D3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				985679BC299FF2D600E046D3 /* LocationManager.swift */,
+				985679BE299FF2EA00E046D3 /* WeatherManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,10 @@
 			dependencies = (
 			);
 			name = WeatherToday;
+			packageProductDependencies = (
+				985679C9299FF62E00E046D3 /* FirebaseAuth */,
+				985679CB299FF62E00E046D3 /* FirebaseFirestore */,
+			);
 			productName = WeatherToday;
 			productReference = 9856799A299FF16800E046D3 /* WeatherToday.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 98567991299FF16800E046D3;
+			packageReferences = (
+				985679C8299FF62E00E046D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9856799B299FF16800E046D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				985679A5299FF16900E046D3 /* Preview Assets.xcassets in Resources */,
+				985679C7299FF3DD00E046D3 /* GoogleService-Info.plist in Resources */,
+				985679C3299FF36D00E046D3 /* weatherData.json in Resources */,
+				985679C5299FF36D00E046D3 /* Preview Assets.xcassets in Resources */,
 				985679A2299FF16900E046D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +210,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985679B1299FF20E00E046D3 /* WelcomeView.swift in Sources */,
+				985679B5299FF22F00E046D3 /* LoginView.swift in Sources */,
+				985679BD299FF2D600E046D3 /* LocationManager.swift in Sources */,
 				985679A0299FF16800E046D3 /* ContentView.swift in Sources */,
+				985679B8299FF26E00E046D3 /* WeatherRow.swift in Sources */,
+				985679C4299FF36D00E046D3 /* ModelData.swift in Sources */,
+				985679AF299FF1FE00E046D3 /* LoadingView.swift in Sources */,
+				985679BF299FF2EA00E046D3 /* WeatherManager.swift in Sources */,
+				985679B3299FF22000E046D3 /* WeatherView.swift in Sources */,
 				9856799E299FF16800E046D3 /* WeatherTodayApp.swift in Sources */,
+				985679AD299FF1E100E046D3 /* AuthView.swift in Sources */,
+				985679BA299FF2AE00E046D3 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +420,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		985679C8299FF62E00E046D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		985679C9299FF62E00E046D3 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 985679C8299FF62E00E046D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		985679CB299FF62E00E046D3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 985679C8299FF62E00E046D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98567992299FF16800E046D3 /* Project object */;
 }
